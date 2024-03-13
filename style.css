@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Fira Code light;
+    src: url(font/FiraCode-Light.ttf);
+}
+
+@font-face {
+    font-family: Fira Code regular;
+    src: url(font/FiraCode-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fira Code medium;
+    src: url(font/FiraCode-Medium.ttf);
+}
+
+@font-face {
+    font-family: Fira Code semibold;
+    src: url(font/FiraCode-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Fira Code bold;
+    src: url(font/FiraCode-Bold.ttf);
+}
+
+.subpages-list {
+    list-style-type: none;
+    
+  }
+
+  .subpages-list a {
+    text-decoration: none; 
+    font-size: small;
+    color: #000000;
+  }
+
+  .subpages-list a:hover {
+    color: #ca7d74;
+  }
+
+body {
+
+    background-color: #eeece3;
+    margin: 1vw;
+    padding: 4vw;
+    padding-left: 2vw;
+    overflow: hidden;
+    width: 93.2vw;
+    
+}
+
+
+
+#h1 {
+  font-family: Fira Code regular;
+  margin-left: 2.7vw;
+  margin-top: -1vw;
+  
+  color: #000000;
+  
+  
+}
+
+
+#h2 {
+    font-family: Fira Code regular;
+    
+  }
+
+#h2:hover {
+    color: #7fa480;
+}
+
+#h3 {
+    font-family: Fira Code light;
+    
+  }
+
+  #h4 {
+    font-family: Fira Code light;
+
+    
+  }
+
+  #h4:hover {
+    color: #7fa480;
+  }
+
+#p1 {
+    font-family: Fira Code regular;
+    margin-top: -1vw;
+    margin-left: 2.7vw;
+
+}
+
+#p2 {
+    font-family: Fira Code regular;
+    color:#ca7d74;
+    margin-top: -1vw;
+    margin-left: 2.7vw;
+ 
+}
+
+#p3 {
+    font-family: Fira Code semibold;
+    color: #000000;
+    margin-top: 23vw;
+    margin-left: 2.7vw;
+    font-size: medium;
+}
+
+
+
+.cropped-image-clip-polygon {
+    position: relative;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(72% 100%, 100% 70%, 100% 50%, 29% 0%, 23% 8%, 1% 28%, 0% 31%, 0% 38%);
+    transition: transform 0.5s ease;
+}
+
+.cropped-image-clip-polygon:hover {
+    transform: scale(1.05); 
+}
+
+.cropped-image-clip-polygon1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(28% 0, 100% 60%, 100% 64%, 72.5% 100%, 0 27%);
+    transition: transform 0.5s ease;
+}
+
+
+.cropped-image-clip-polygon1:hover {
+    transform: scale(1.05); 
+}
+
+.cropped-image-clip-polygon2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(33% 0, 100% 60%, 100% 64%, 72.5% 100%, 0 29%,0 27%);
+    transition: transform 0.5s ease;
+}
+
+.cropped-image-clip-polygon2:hover {
+    transform: scale(1.05); 
+}
+
+.cropped-image-clip-polygon3 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(75% 100%, 100% 74%, 100% 50%, 29% 0%, 23% 5%, 1% 28%, 0% 31%, 0% 38%);
+    transition: transform 0.5s ease;
+}
+
+
+.cropped-image-clip-polygon3:hover {
+    transform: scale(1.05); 
+}
+
+.cropped-image-clip-polygon4 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(70% 100%, 100% 68%, 100% 58%, 29% 0%, 23% 10%, 1% 30%, 0% 31%, 0% 41%);
+    transition: transform 0.5s ease;
+}
+
+.cropped-image-clip-polygon4:hover {
+    transform: scale(1.05); 
+}
+
+
+.image-container {
+    display:block;
+    margin-top: -48vw;
+    float:left;
+    width: 64vw;
+    height: 85dvh;
+    margin-left: 29vw;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-y: scroll;
+        max-height: 100vh;
+    }
+}
